@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- metadatos -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Esta pagina contiene ejercicios de logica con JS"
+    />
+    <meta name="keywords" content="html, javascript, Pablo Rodriguez" />
+    <meta name="author" content="Pablo Rodriguez" />
+    <meta name="robots" content="index, follow" />
+    <title>Ejercicio 2 - Selecciona tus Stickers</title>
+    <link rel="stylesheet" href="./assets/css/styles2.css" />
+  </head>
+  <body>
+    <h1>Selecciona tus stickers, puedes llevar maximo 10</h1>
+    <div class="sticker-container">
+      <div class="sticker">
+        <img src="./assets/img/sticker1.jpg" alt="Sticker 1" />
+        <div>
+          <label for="sticker1">Cantidad de stickers:</label>
+          <input type="number" id="sticker1" value="0" min="0" />
+        </div>
+      </div>
+
+      <div class="sticker">
+        <img src="./assets/img/sticker2.jpg" alt="Sticker 2" />
+        <div>
+          <label for="sticker2">Cantidad de stickers:</label>
+          <input type="number" id="sticker2" value="0" min="0" />
+        </div>
+      </div>
+
+      <div class="sticker">
+        <img src="./assets/img/sticker3.jpg" alt="Sticker 3" />
+        <div>
+          <label for="sticker3">Cantidad de stickers:</label>
+          <input type="number" id="sticker3" value="0" min="0" />
+        </div>
+      </div>
+    </div>
+    <button id="BtnCalcular">Calcular stickers</button>
+    <p id="resultado"></p>
+    <script src="./assets/js/ejercicio2.js"></script>
+  </body>
+</html>
